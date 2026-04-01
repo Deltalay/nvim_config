@@ -1,14 +1,14 @@
 return {
   "folke/tokyonight.nvim",
   lazy = false,
-  priority = 1000,  -- load before everything else
+  priority = 1000,   -- load before everything else
   opts = {
-    style = "night",       -- night, storm, moon, day
+    style = "night", -- night, storm, moon, day
     transparent = false,
     terminal_colors = true,
     styles = {
-      comments = { italic = true },
-      keywords = { italic = true },
+      comments = { italic = false },
+      keywords = { italic = false },
       sidebars = "dark",
       floats = "dark",
     },
